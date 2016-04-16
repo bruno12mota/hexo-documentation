@@ -8,16 +8,11 @@
 
 .logo {
   text-align: center;
-  padding: 20px; }
-  .logo img, .logo span {
-    display: inline-block;
-    vertical-align: top; }
-  .logo span {
-    font-size: 28px;
-    line-height: 46px;
-    font-weight: 300;
-    color: #666666;
-    padding: 0 10px; }
+  padding: 20px 20px;
+  font-size: 24px;
+  line-height: 46px;
+  font-weight: 300;
+  color: #666666; }
 
 .menu-nav {
   padding: 20px 25px; }
@@ -39,10 +34,14 @@
       color: #10CF93; }
   .menu-nav > .nav > li {
     margin-bottom: 20px; }
-  .menu-nav .nav .nav {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px; }
+  .menu-nav > .nav {
+    padding: 0; }
+  .menu-nav .nav {
+    list-style: none; }
+    .menu-nav .nav .nav {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 20px; }
 
 .footer {
   position: absolute;
