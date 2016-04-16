@@ -26,7 +26,7 @@
         </ul>
       {% endfor %}
     </nav>
-    <a class='footer' href='https://github.com/relax/relate'>
+    <a class='footer' href='https://github.com/bruno12mota/hexo-documentation'>
       Project on github
     </a>
   </div>
